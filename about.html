@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <style>
+    ul{
+      background-color: rgba(0, 0, 9, 0.99);
+      list-style-type: none;
+      overflow: hidden;
+      padding: 8px;
+      margin: 8px;
+    }
+    li{
+      float: left;
+    }
+    li,a{
+      padding: 16px;
+      text-align: center;
+      color: white;
+      text-decoration: none;
+      display: block;
+      background-color: black;
+    }
+    body{
+      background-image: url("images/foresty.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: white;
+    }
+    h1{
+      text-shadow: 2px 2px;
+    }
+    a:hover{
+      background-color:blueviolet;
+
+    }
+    input[type=submit]{
+      background-color: purple;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    input[type=submit]:hover{
+      background-color: deepskyblue;
+      width: 150px;
+    }
+   html{
+     box-sizing: border-box;
+   }
+
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+
+    .column {
+      float: left;
+      width: 33.3%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .container {
+      padding: 0 16px;
+    }
+
+    .container::after, .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .title {
+      color: grey;
+    }
+
+    .button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .button:hover {
+      background-color: #555;
+    }
+
+  </style>
+
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>About Us</title>
+</head>
+<body>
+<h1>WANT TO KNOW ABOUT US</h1>
+
+<div id="about">
+
+  <ul>
+
+    <li><a href="newweb.html">Home</a></li>
+    <li><a href="about.html">About us</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="location.html">info</a></li>
+
+  </ul>
+</div>
+
+
+<iframe width="300" height="300" src="https://www.youtube.com/embed/F-0i2l3sqno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+<p> this foundation has been helping out those in need of an adventure <br>
+ safari tripps has also won awards like the zambezian award for best tours ever <br></p>
+<img src="images/award.jpeg" alt=""width="400"height="250">
+
+<p>the safari tours is also working towards the best internationally and locally
+  we appreciate the patnership of the people in providing the materials and for the
+  availability <br>
+   if interested fill the following
+</p>
+
+
+<form action="services.html"method="get">
+  <label for="Fname">Firstname</label><br>
+  <input type="text"id="Fname"placeholder="Enter first name"><br>
+  <label for="lname">Lastname</label><br>
+  <input type="text"id="lname"placeholder="Enter last name"><br>
+  <label for="baruapepe">Email Address</label><br>
+  <input type="email"id="baruapepe"placeholder="Enter Email"><br>
+  <label for="interest">interest</label><br>
+  <select name="interest" id="interest"><br>
+    <option value="hiking">hiking</option>
+    <option value="camping">camping</option>
+    <option value="surfing">surfing</option>
+    <option value="tours">tours</option>
+  </select><br>
+  <input type="submit"value="services"><br>
+</form>
+
+
+
+
+<h2>Meet The Team</h2>
+<p>this is the foundation of the team behind the succes exclusively provided for you.</p>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images/loly3.jpeg" alt="Jumasi" width="106"height="159" >
+      <div class="container">
+        <h2>Jared something</h2>
+        <p class="title">director travel</p>
+        <p> making the foundation.</p>
+        <p>moron@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/loly2.jpeg" alt="Mike"width="106"height="159">
+      <div class="container">
+        <h2>Miclaus mikes</h2>
+        <p class="title">basic trainer</p>
+        <p>bringing trainees to a new level.</p>
+        <p>something@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/loly.jpeg" alt="John"width="106"height="159">
+      <div class="container">
+        <h2>truphena no</h2>
+        <p class="title">director</p>
+        <p>working towards being the best.</p>
+        <p>moyyyy@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
